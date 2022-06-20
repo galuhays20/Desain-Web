@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jquery</title>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+  <style>
+  #toggle {
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+		<div class="container">
+		<p>The <span class="highlight">Faculty of Teacher Training and Education, Sebelas Maret University</span>,
+        Surakarta is
+        an Educational Personnel
+        <span class="highlight">Education Institution (LPTK)</span> which has 24 study programs in 6 majors.
+        Each study program has its
+        own
+        characteristics in producing <span class="highlight">superior, strong and intelligent educational staff.</span>
+    </p>
+    <p>
+        The <span class="highlight"> Informatics and Computer Technology Education (PTIK) </span> study program is planned to take shelter in the
+        management of the <span class="highlight"> Engineering and Vocational Education (PTK)</span> department. This placement revises our previous
+        statement, where the PTIK study program is under the P.MIPA department. PTIK is a study program that will
+        produce graduates who are <span class="highlight"> prioritized to teach in vocational/vocational programs </span>. So, it would be better if PTIK
+        was under the PTK department which oversees vocational programs such as <span class="highlight"> Building Engineering Education </span>, and
+        <span class="highlight"> Mechanical Engineering Education</span>. To meet the needs of lecturers in the field of information technology that
+        cannot be met by the PTK department, PTIK will conduct <span class="highlight"> resource sharing with the mathematics study program</span>.
+    </p>
+
+		</div>
+		<script src="jquery.min.js"></script>
+		<script type="jquery.highlight.js"></script>
+		<script>
+			$('.container').highlight(['sit','lorem','non','nulla','odio']);
+		</script>
+</body>
+</html>

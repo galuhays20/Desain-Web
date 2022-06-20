@@ -1,0 +1,56 @@
+body{
+	padding: 0px;
+	margin:0px;
+	background: #e1e1e1;
+}
+
+.header{
+	background: rgba(0, 0, 0, 0.9);
+	padding: 6px 24px;
+	text-align: left;
+	color: white;
+	margin: 0px;
+	letter-spacing: 1px;
+	font: caption;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: teal;
+  
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+.video-container{
+	position: relative;
+	z-index: -1;
+	top: 0px; 
+}
+
+.video-container iframe{
+	width: 100%;
+	height: 90vh;
+}
+.content{
+	padding: 0px 24px;
+	text-align: justify;
+	font-size: 20px;
+}
